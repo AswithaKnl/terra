@@ -1,6 +1,6 @@
 resource "aws_instance" "aws-multi-instance" {
   count         = 3
-  ami           = "ami-05692172625678b4e"
+  ami           = "ami-0c2af51e265bd5e0e"
   instance_type = "t2.micro"
 
   tags = {
